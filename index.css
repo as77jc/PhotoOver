@@ -1,0 +1,20 @@
+body {
+    margin: 30px auto;
+    padding: 0;
+    max-width: 1000px;
+    height: 700px;
+    justify-content: center;
+    border: 10px solid #1f1f1f;
+    background: #000;
+}
+
+img {
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#panels {
+    display: flex;
+    overflow: hidden;
+}
